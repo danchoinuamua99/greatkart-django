@@ -1,0 +1,19 @@
+[flake8]
+ignore = D203, E501
+exclude =
+    .venv,
+    .git,
+    htmlcov,
+    persistent,
+    __pycache__,
+    docs/source/conf.py,
+    old,
+    build,
+    dist,
+    __init__.py
+    docker.py
+max-complexity = 10
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
